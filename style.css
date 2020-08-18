@@ -1,11 +1,13 @@
 h1 {
 color: green;
+justify-content: center;
 }
 h2 {
 color: blue;
 }
 h2 {
 color: orange;
+width: 300px;
 }
 p {
 color: red;

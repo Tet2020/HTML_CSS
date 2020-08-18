@@ -1,5 +1,6 @@
 h1 {
-color: green;
+color: grey;
+display: flex;
 justify-content: center;
 }
 h2 {
@@ -7,8 +8,23 @@ color: blue;
 }
 h2 {
 color: orange;
-width: 300px;
+display: flex;
+justify-content: flex-end;
+font-style: italic;
 }
 p {
 color: red;
+display: flex;
+justify-content: flex-end;
+font-style:italic;
+font-weight: bold;
+}
+p+p {
+color: red;
+display: flex;
+justify-content: center;
+}
+p:first-of-type {
+font-style: normal;
+
 }

@@ -2,6 +2,7 @@ h1 {
 color: grey;
 display: flex;
 justify-content: center;
+font-family: sans-serif;
 }
 h2 {
 color: blue;
@@ -26,5 +27,5 @@ justify-content: center;
 }
 p:first-of-type {
 font-style: normal;
-
+color: green;
 }

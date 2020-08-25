@@ -36,14 +36,14 @@ p:nth-child(1n) {
     font-family: sans-serif;
 }
 
-div>p {
-    color: grey;
-}
-
 div>h2 {
     text-decoration: overline;
 }
 
 .one {
     color: black;
+}
+
+.one>.two {
+    color: grey;
 }

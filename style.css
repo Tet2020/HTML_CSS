@@ -1,8 +1,19 @@
 body {
-    width: 700px;
+    width: 900px;
     border: 1px black dotted;
     margin: auto;
     padding: 10px;
+}
+
+.wrap {
+    width: 450px;
+    border-top: 2px solid red;
+    border-right: 1px solid green;
+    border-bottom: 2px solid yellow;
+    border-left: 1px solid blue;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 60px;
 }
 
 p {
@@ -21,6 +32,7 @@ h2 {
 
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
 ul>li {
@@ -47,3 +59,7 @@ div>h2 {
 .one>.two {
     color: grey;
 }
+
+.one {}
+
+.two {}

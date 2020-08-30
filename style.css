@@ -1,82 +1,84 @@
 body {
-    width: 900px;
-    border: 1px black dotted;
-    margin: auto;
-    padding: 10px;
+  width: 900px;
+  border: 1px black dotted;
+  margin: auto;
+  padding: 10px;
 }
 
 .wrap {
-    width: 450px;
-    border-top: 2px solid red;
-    border-right: 1px solid green;
-    border-bottom: 2px solid yellow;
-    border-left: 1px solid blue;
-    border-radius: 50px;
-    margin: 50px;
-    padding: 60px;
+  width: 450px;
+  border-top: 2px solid red;
+  border-right: 1px solid green;
+  border-bottom: 2px solid yellow;
+  border-left: 1px solid blue;
+  border-radius: 50px;
+  margin: 50px;
+  padding: 60px;
 }
 
 p {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 h1,
 b,
 ol {
-    color: red;
+  color: red;
 }
 
 h2 {
-    color: green;
+  color: green;
 }
 
 h1 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
-
-ul>li {
-    font-style: italic;
-    color: brown;
+li {
+  list-style-type: none;
+}
+ul > li {
+  font-style: italic;
+  color: brown;
 }
 
 i {
-    color: blue;
+  color: blue;
 }
 
 p:nth-child(1n) {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
-div>h2 {
-    text-decoration: overline;
+div > h2 {
+  text-decoration: overline;
 }
 
 .one {
-    color: black;
+  color: black;
 }
 
-.one>.two {
-    color: grey;
+.one > .two {
+  color: grey;
 }
 
 a:link {
-    text-decoration: none;
-    font-style: normal;
-    color: blue;
+  text-decoration: none;
+  font-style: normal;
+  color: blue;
 }
 
 a:visited {
-    color: red;
-    text-decoration: ;
+  color: red;
+  text-decoration: ;
 }
 
 a:hover {
-    color: green;
-    text-decoration: line-through;
+  color: green;
+  text-decoration: line-through;
 }
 
 a:active {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }

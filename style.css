@@ -60,6 +60,23 @@ div>h2 {
     color: grey;
 }
 
-.one {}
+a:link {
+    text-decoration: none;
+    font-style: normal;
+    color: blue;
+}
 
-.two {}
+a:visited {
+    color: red;
+    text-decoration: ;
+}
+
+a:hover {
+    color: green;
+    text-decoration: line-through;
+}
+
+a:active {
+    color: blue;
+    text-decoration: underline;
+}

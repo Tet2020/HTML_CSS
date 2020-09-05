@@ -5,7 +5,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/fon1.jpg);
+  background-image: no-repeat url(img/fon1.jpg) no-repeat;
 }
 .wrap {
   width: 50%;
@@ -33,4 +33,15 @@ p:first-of-type::selection {
 .inpu {
   margin: 20px;
   padding: 15px;
+}
+.green {
+  width: 200px;
+  height: 300px;
+  border: 3px dashed green;
+  margin: 40px;
+}
+.red {
+  width: 300px;
+  height: 300px;
+  border: 3px dashed red;
 }

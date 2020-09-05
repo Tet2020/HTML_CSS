@@ -15,9 +15,22 @@ body {
   border: 4px dotted grey;
   padding: 40px;
   margin: auto;
+  background-image: url(img/fon2.jpg);
 }
 p:first-letter {
   font-size: 40px;
   color: red;
   font-style: italic;
+}
+p:first-line {
+  font-size: 27px;
+  color: white;
+}
+p:first-of-type::selection {
+  color: gold;
+  background: red;
+}
+.inpu {
+  margin: 20px;
+  padding: 15px;
 }

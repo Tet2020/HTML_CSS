@@ -53,5 +53,8 @@ a {
   font-weight: bold;
   color:blue;
   background: white url(img/blue.png) no-repeat 90% center;
-whit
+}
+#lower-greek a.active {
+  color: blue;
+ background: white url(img/blue.png) no-repeat 90% center;
 }

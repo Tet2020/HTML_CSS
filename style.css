@@ -41,3 +41,6 @@ img {
  {
   list-style-type: upper-alpha;
 }
+a {
+  text-decoration: none;
+}

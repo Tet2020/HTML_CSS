@@ -6,34 +6,39 @@ body {
   width: 100vw;
   height: 100vh;
 }
-img {
-  width: 7px;
-  height: 7px;
-}
-.wrap {
-  padding: 30px;
-}
 
 a {
   text-decoration: none;
 }
+ul li {
+  list-style-type: none;
+}
 
-#lower-greek a:link {
-  display: block;
-  padding: 5px;
+.nav {
+  border: 1px solid red;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+}
+ a:link {
+padding: 3px;
   border: 1px solid blue;
-  margin-bottom: 4px;
   width: 120px;
   color: white;
   background: rgb(44, 44, 184);
   font-family: Arial;
 }
-#lower-greek a:hover {
+a:hover {
   font-weight: bold;
   color: blue;
-  background: white url(img/blue.png) no-repeat 90% center;
+  background: white;
+  border-radius: 2px;
 }
-#lower-greek a.active {
+a.active {
   color: blue;
-  background: white url(img/blue.png) no-repeat 90% center;
+  background: white;
 }

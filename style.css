@@ -5,17 +5,17 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: no-repeat url(img/fon1.jpg) no-repeat;
+  background-image: url(img/fon1.jpg);
 }
 .wrap {
   width: 50%;
   height: auto;
-  background-color: rgb(0, 255, 55);
   justify-content: center;
   border: 4px dotted grey;
-  padding: 40px;
   margin: auto;
-  background-image: url(img/fon2.jpg);
+}
+.head {
+  background: no-repeat url(img/fon2.jpg);
 }
 p:first-letter {
   font-size: 40px;
@@ -43,5 +43,10 @@ p:first-of-type::selection {
 .red {
   width: 300px;
   height: 300px;
-  border: 3px dashed red;
+  border-radius: 10px;
+  border: 3px solid red;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+text-align: justify;
 }

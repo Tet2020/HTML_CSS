@@ -17,25 +17,24 @@ ul li {
 .nav {
   display: flex;
   justify-content: center;
-  background: rgb(44, 44, 184);
+  
 }
 li {
   display: inline-block;
   padding: 10px;
 }
-a:link {
-  padding: 3px;
-  color: white;
-
-  font-family: Arial;
+#l1 {
+background-image: url(/img/1.jpg);
 }
-a:hover {
-  font-weight: bold;
-  color: blue;
-  background: white;
-  border-radius: 2px;
+#l2 {
+  background-image: url(/img/2.jpg);
 }
-a.active {
-  color: blue;
-  background: white;
+#l3 {
+  background-image: url(/img/3(1).jpg);
+}
+#l4 {
+ background-image: url(/img/4.jpg);  
+}
+#l5 {
+  background-image: url(/img/5.jpg); 
 }

@@ -14,27 +14,6 @@ img {
   padding: 30px;
 }
 
-#square {
-  list-style-type: square;
-}
-#circle {
-  list-style-type: circle;
-}
-#disc {
-  list-style-type: disc;
-}
-#none {
-  list-style-type: none;
-}
-
-#triangle {
-  list-style-type: none;
-  list-style-image: url(img/4.gif);
-}
-#lower-greek {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -46,15 +25,15 @@ a {
   margin-bottom: 4px;
   width: 120px;
   color: white;
-  background:rgb(44, 44, 184);
+  background: rgb(44, 44, 184);
   font-family: Arial;
 }
 #lower-greek a:hover {
   font-weight: bold;
-  color:blue;
+  color: blue;
   background: white url(img/blue.png) no-repeat 90% center;
 }
 #lower-greek a.active {
   color: blue;
- background: white url(img/blue.png) no-repeat 90% center;
+  background: white url(img/blue.png) no-repeat 90% center;
 }

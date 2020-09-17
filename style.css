@@ -42,15 +42,16 @@ a {
 #lower-greek a:link {
   display: block;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid blue;
   margin-bottom: 4px;
   width: 120px;
   color: white;
-  background: grey;
+  background:rgb(44, 44, 184);
   font-family: Arial;
 }
 #lower-greek a:hover {
   font-weight: bold;
-  color: grey;
-  background: white;
+  color:blue;
+  background: white url(img/blue.png) no-repeat 90% center;
+whit
 }

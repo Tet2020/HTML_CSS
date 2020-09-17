@@ -15,21 +15,18 @@ ul li {
 }
 
 .nav {
-  border: 1px solid red;
-  padding: 30px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  background: rgb(44, 44, 184);
 }
 li {
   display: inline-block;
   padding: 10px;
 }
- a:link {
-padding: 3px;
-  border: 1px solid blue;
-  width: 120px;
+a:link {
+  padding: 3px;
   color: white;
-  background: rgb(44, 44, 184);
+
   font-family: Arial;
 }
 a:hover {

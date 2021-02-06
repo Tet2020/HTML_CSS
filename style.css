@@ -1,0 +1,26 @@
+.wrap {
+    line-height: 2em;
+    text-indent: 40px;
+    border: 2px dotted black;
+    text-align: justify;
+    width: 500px;
+    padding: 0px 500px 0px 40px;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+b {
+    color: red;
+}
+
+i,
+h2,
+h1 {
+    color: blue;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
